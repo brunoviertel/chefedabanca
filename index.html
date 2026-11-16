@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Chefe da Banca | Jogos e Palpites</title>
+  <meta name="description" content="Links oficiais do Chefe da Banca: grupos de jogos e palpites no Telegram. Conteúdo para maiores de 18 anos.">
+  <meta name="theme-color" content="#000000">
+  <meta name="color-scheme" content="dark">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <!-- Open Graph / Twitter
+       DICA: depois de publicar, troque "assets/og-image.jpg" pela URL completa
+       (ex.: https://seusite.vercel.app/assets/og-image.jpg) para a prévia
+       aparecer certinho no WhatsApp/Instagram. -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Chefe da Banca | Jogos e Palpites">
+  <meta property="og:description" content="Grupos de jogos e palpites do Chefe no Telegram. Conteúdo para maiores de 18 anos.">
+  <meta property="og:image" content="assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Chefe da Banca">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Chefe da Banca | Jogos e Palpites">
+  <meta name="twitter:description" content="Grupos de jogos e palpites do Chefe no Telegram. Conteúdo para maiores de 18 anos.">
+  <meta name="twitter:image" content="assets/og-image.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/perfil-512.jpg">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- =====================================================
+       ANALYTICS — cole aqui o script do Plausible, GA4 ou Meta Pixel.
+       O script.js já dispara os cliques automaticamente para:
+       plausible('Clique', ...), gtag('event', ...) e fbq('trackCustom', ...).
+       ===================================================== -->
+
+</head>
+<body>
+  <canvas class="sparks" aria-hidden="true"></canvas>
+
+  <main class="page">
+    <header class="profile">
+      <div class="avatar">
+        <img id="photo" src="assets/perfil-512.jpg" alt="Chefe da Banca" width="512" height="512" decoding="async" fetchpriority="high">
+      </div>
+      <h1 id="name">Chefe da Banca</h1>
+      <p id="tagline" class="tagline">Jogo é diversão, banca é coisa séria 🎩</p>
+    </header>
+
+    <nav class="links" id="links" aria-label="Links">
+      <!-- Preenchido a partir do config.js. Fallback caso o JS não carregue: -->
+      <a class="link-btn" href="https://t.me/+UJgI7EikkGU2ZDVh" target="_blank" rel="noopener noreferrer" data-track="jogos">🎲 Jogos do Chefe</a>
+      <a class="link-btn" href="https://t.me/+UGjfO2eE-CFmMWIx" target="_blank" rel="noopener noreferrer" data-track="palpites">⚽ Palpites do Chefe</a>
+    </nav>
+
+    <footer class="notices">
+      <ul id="notices">
+        <li>🔞 Conteúdo exclusivo para maiores de 18 anos.</li>
+        <li>Jogue com responsabilidade.</li>
+      </ul>
+    </footer>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
