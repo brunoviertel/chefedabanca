@@ -15,7 +15,7 @@ window.SITE_CONFIG = {
   // Botões (na ordem em que aparecem)
   // track = nome do evento enviado ao analytics quando alguém clica
   links: [
-    { label: "🎲 Jogos do Chefe",    url: "https://t.me/+UJgI7EikkGU2ZDVh", track: "jogos" },
+    { label: "🎲 Jogos do Chefe",    url: "https://t.me/jogosdochefe", track: "jogos" },
     { label: "⚽ Palpites do Chefe", url: "https://t.me/+UGjfO2eE-CFmMWIx", track: "palpites" }
   ],
 
