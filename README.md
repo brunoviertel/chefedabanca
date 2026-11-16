@@ -6,7 +6,7 @@ Site estático (HTML + CSS + JS puro). Não precisa instalar nada nem rodar buil
 
 | Arquivo | Para quê |
 |---|---|
-| `config.js` | **O único arquivo que você precisa editar**: nome, descrição, links, avisos do rodapé |
+| `config.js` | **O único arquivo que você precisa editar**: nome, descrição, links |
 | `index.html` | Estrutura da página, SEO e espaço para o analytics |
 | `style.css` | Visual |
 | `script.js` | Monta a página a partir do config, rastreamento, UTM, faíscas |
@@ -24,7 +24,6 @@ links: [
 ```
 
 - Para **adicionar um botão**, copie uma linha `{ ... },` e mude o texto e o link.
-- Os avisos do rodapé ficam em `notices`.
 - Mantenha as aspas e as vírgulas, senão a página volta a mostrar os textos padrão do `index.html`.
 
 Para testar, basta abrir o `index.html` no navegador.

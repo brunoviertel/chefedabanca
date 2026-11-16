@@ -19,12 +19,6 @@ window.SITE_CONFIG = {
     { label: "⚽ Palpites do Chefe", url: "https://t.me/+UGjfO2eE-CFmMWIx", track: "palpites" }
   ],
 
-  // Avisos do rodapé (um por linha)
-  notices: [
-    "🔞 Conteúdo exclusivo para maiores de 18 anos.",
-    "Jogue com responsabilidade."
-  ],
-
   // Repassar parâmetros utm_* da URL da página para os botões
   forwardUtm: true,
 

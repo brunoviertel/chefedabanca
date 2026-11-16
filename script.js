@@ -63,17 +63,6 @@
     });
   }
 
-  /* ---------- Avisos ---------- */
-  var list = document.getElementById("notices");
-  if (list && Array.isArray(cfg.notices) && cfg.notices.length) {
-    list.innerHTML = "";
-    cfg.notices.forEach(function (text) {
-      var li = document.createElement("li");
-      li.textContent = text;
-      list.appendChild(li);
-    });
-  }
-
   /* ---------- Rastreamento de cliques ---------- */
   function track(name, url) {
     var props = { botao: name, destino: url };
@@ -102,8 +91,7 @@
   /* ---------- Animação de entrada ---------- */
   if (!reduceMotion) {
     var items = [document.querySelector(".avatar"), document.getElementById("name"), document.getElementById("tagline")]
-      .concat(Array.prototype.slice.call(document.querySelectorAll("#links .link-btn")))
-      .concat([document.querySelector(".notices")]);
+      .concat(Array.prototype.slice.call(document.querySelectorAll("#links .link-btn")));
     items.forEach(function (el, i) {
       if (!el) return;
       el.classList.add("reveal");

@@ -159,25 +159,6 @@ h1 {
 @keyframes rise { to { opacity: 1; transform: none; } }
 .avatar.reveal { animation: rise .6s cubic-bezier(.2,.7,.2,1) forwards, glow 4s ease-in-out infinite alternate; }
 
-/* ---------- Rodapé ---------- */
-.notices {
-  width: 100%;
-  margin-top: auto;
-  padding-top: 40px;
-}
-
-.notices ul {
-  list-style: none;
-  margin: 0;
-  padding: 16px 14px;
-  border-top: 1px solid rgba(212, 175, 55, .25);
-  text-align: center;
-  color: var(--muted);
-  font-size: .8rem;
-  line-height: 1.55;
-}
-.notices li + li { margin-top: 4px; }
-
 /* ---------- Desktop ---------- */
 @media (min-width: 768px) {
   .page { padding-top: 72px; }
